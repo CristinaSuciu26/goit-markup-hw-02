@@ -1,0 +1,188 @@
+body {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212121;
+}
+
+.main-navigation {
+  width: 1600px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.main-navigation-webstudio,
+.main-navigation-studio,
+.main-navigation-portofolio {
+  color: #2196f3;
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.main-navigation-studio,
+.main-navigation-portofolio,
+.main-navigation-contacts {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.main-navigation-contacts {
+  color: inherit;
+  font-style: normal;
+  line-height: normal;
+}
+
+.info-mail,
+.info-phone {
+  color: #2196f3;
+  font-size: 14px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.info-phone {
+  color: #757575;
+}
+
+.background,
+.address-details {
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+  background: #2f303a;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  display: flex;
+  width: 696px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+}
+
+.ability,
+.ability-details {
+  color: inherit;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.ability-details {
+  color: #757575;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.details {
+  color: inherit;
+  text-align: center;
+  font-size: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.details-images,
+.projects-images {
+  height: 294px;
+  flex-shrink: 0;
+}
+.team-names,
+.team-jobs {
+  color: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.team-jobs {
+  color: #757575;
+  font-weight: 400;
+}
+.team-photo {
+  height: 260px;
+  flex-shrink: 0;
+}
+.address-details {
+  height: 251px;
+}
+.mail,
+.address {
+  display: flex;
+  width: 231px;
+  height: 16px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.42px;
+}
+.address {
+  color: #fff;
+  line-height: normal;
+  width: 207px;
+}
+.buttons,
+.projects {
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+.buttons {
+  cursor: pointer;
+}
+.projects {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+.projects-name {
+  color: #757575;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
