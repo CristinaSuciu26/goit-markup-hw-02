@@ -40,7 +40,7 @@ ul {
 
 .info-mail,
 .info-phone {
-  color: #2196f3;
+  color: #757575;
   font-size: 14px;
   font-family: inherit;
   font-style: normal;
@@ -48,10 +48,6 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.info-phone {
-  color: #757575;
-}
-
 .background,
 .address-details {
   width: 1600px;
@@ -60,6 +56,10 @@ ul {
   background: #2f303a;
 }
 .title {
+  display: flex;
+  width: 696px;
+  flex-direction: column;
+  flex-shrink: 0;
   color: #fff;
   text-align: center;
   font-size: 44px;
@@ -69,10 +69,6 @@ ul {
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  display: flex;
-  width: 696px;
-  flex-direction: column;
-  flex-shrink: 0;
 }
 .button {
   color: #fff;
@@ -160,7 +156,7 @@ ul {
   line-height: normal;
   width: 207px;
 }
-.buttons,
+
 .projects {
   color: #212121;
   text-align: center;
@@ -170,15 +166,35 @@ ul {
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
-}
-.buttons {
-  cursor: pointer;
-}
-.projects {
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
+}
+.buttons:hover {
+  background: #2196f3;
+  cursor: pointer;
+}
+a:hover {
+  color: #2196f3;
+}
+a:focus {
+  color: #2196f3;
+}
+.buttons:focus {
+  color: #fff;
+  background: #2196f3;
+}
+.btn {
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  cursor: pointer;
 }
 .projects-name {
   color: #757575;
