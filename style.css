@@ -21,7 +21,7 @@ body {
 .main-navigation-studio,
 .main-navigation-portofolio,
 .main-navigation-contacts {
-  color: #212121;
+  color: inherit;
   font-size: 14px;
   font-family: Roboto;
   font-style: normal;
