@@ -23,7 +23,7 @@ body {
 .main-navigation-contacts {
   color: inherit;
   font-size: 14px;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
